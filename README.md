@@ -12,7 +12,9 @@ André Feliphe Serrano Gouvêa: andregouveaif@gmail.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+> O grupo BlackCard visa criar um cadastro único, com um cartão, esse cartão vai registrar informações como: saldo, transações, lugares frequentados e em que horário, cupons de desconto, entre oturas informações.
+Essa ferramenta proporcionaria mais facilidade para clientes e empresas, permitindo que empresas enviem descontos personalizados para certos clientes, banir ou privilegiar certos clientes, e também ajudaria os clientes á gerenciar os gastos e ter um registro de seus locais favoritos.
+Queremos proporcionar facilidade tanto para os estabelecimentos quanto para os clientes, criando espaços mais seguros, eficientes e interativos.
  
 
 ### 3.MINI-MUNDO Novo<br>
