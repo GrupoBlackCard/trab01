@@ -12,7 +12,7 @@ André Feliphe Serrano Gouvêa: andregouveaif@gmail.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> O grupo BlackCard visa criar um cadastro único, com um cartão, esse cartão vai registrar informações como: saldo, transações, lugares frequentados e em que horário, cupons de desconto, entre oturas informações.
+> O grupo BlackCard visa criar um cadastro único, com um cartão, esse cadastro vai registrar informações como: saldo, transações, lugares frequentados e em que horário, cupons de desconto, entre oturas informações.
 Essa ferramenta proporcionaria mais facilidade para clientes e empresas, permitindo que empresas enviem descontos personalizados para certos clientes, banir ou privilegiar certos clientes, e também ajudaria os clientes á gerenciar os gastos e ter um registro de seus locais favoritos.
 Queremos proporcionar facilidade tanto para os estabelecimentos quanto para os clientes, criando espaços mais seguros, eficientes e interativos.
  
