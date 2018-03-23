@@ -14,8 +14,8 @@ Pedro Cruz: <br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-Problemas como andar com dinheiro no bolso para ir a um show, sair com pouco dinheiro para um bar são situações que as vezes podem atrapalhar a diversão de um usuário além disso empresas muitas vezes não tem um controle mais preciso e individualizado para cada um dos seus clientes o que o impede de fazer promoções de marketing diretas para cada cliente ou mesmo para ter uma ideia mais precisa do público que frequenta o seu estabelecimento.
-Buscando solucionar estes problemas o grupo TBD apresenta a ideia do cartão TBD que traz a ideia de uma carteira digital que oferece tanto segurança e maior controle para o cliente como favorece o controle dos estabelicimentos como barrar acesso de clientes problemáticos ou ter a oportunidade de fidelizar clientes através de marketing individualizado.
+Problemas como andar com dinheiro no bolso para ir a um show, sair com pouco dinheiro para um bar são situações que as vezes podem atrapalhar a diversão de um usuário, além disso, empresas muitas vezes não tem um controle mais preciso e individualizado para cada um dos seus clientes, o que o impede de fazer promoções de marketing diretas para cada cliente ou mesmo para ter uma ideia mais precisa do público que frequenta o seu estabelecimento.
+Buscando solucionar estes problemas, apresentamos a ideia do cartão TBD, que traz a ideia de uma carteira digital que oferece tanto segurança e maior controle para o cliente como favorece o controle dos estabelicimentos, como barrar acesso de clientes problemáticos ou ter a oportunidade de fidelizar clientes através de marketing individualizado.
 O TBD é uma solução que engloba um cartão com chip físico, um aplicativo de celular e um sistema web acessível pelo empresário. Cada um destes componentes possui funcionalidades diferentes e estão interligados entre sí através de uma base de dados única.<br>
  
 
