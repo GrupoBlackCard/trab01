@@ -9,6 +9,7 @@ Matheus Pinto Vieira: matheuspintovieira@hotmail.com<br>
 André Feliphe Serrano Gouvêa: andregouveaif@gmail.com<br>
 Herbert: <br>
 Pedro Cruz: <br>
+Jack Johnson: jackjohnson.junior@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
