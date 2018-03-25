@@ -7,7 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Matheus Pinto Vieira: matheuspintovieira@hotmail.com<br>
 André Feliphe Serrano Gouvêa: andregouveaif@gmail.com<br>
-Herbert: <br>
+Herbert: herbert-wander@hotmail.com<br>
 Pedro Cruz: <br>
 Jack Johnson: jackjohnson.junior@gmail.com<br>
 
