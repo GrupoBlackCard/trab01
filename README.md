@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Matheus Pinto Vieira: matheuspintovieira@hotmail.com<br>
 André Feliphe Serrano Gouvêa: andregouveaif@gmail.com<br>
 Herbert: herbert-wander@hotmail.com<br>
-Pedro Cruz: <br>
+Pedro Cruz: pedrocruzns@gmail.com<br>
 Jack Johnson: jackjohnson.junior@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
