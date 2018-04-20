@@ -12,8 +12,6 @@ Pedro Cruz: pedrocruzns@gmail.com<br>
 Jack Johnson: jackjohnson.junior@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
 
 Problemas como andar com dinheiro no bolso para ir a um show, sair com pouco dinheiro para um bar são situações que as vezes podem atrapalhar a diversão de um usuário, além disso, empresas muitas vezes não tem um controle mais preciso e individualizado para cada um dos seus clientes, o que o impede de fazer promoções de marketing diretas para cada cliente ou mesmo para ter uma ideia mais precisa do público que frequenta o seu estabelecimento.
 Buscando solucionar estes problemas, apresentamos a ideia do cartão TBD, que traz a ideia de uma carteira digital que oferece tanto segurança e maior controle para o cliente como favorece o controle dos estabelicimentos, como barrar acesso de clientes problemáticos ou ter a oportunidade de fidelizar clientes através de marketing individualizado.
@@ -21,12 +19,6 @@ O TBD é uma solução que engloba um cartão com chip físico, um aplicativo de
  
 
 ### 3.MINI-MUNDO Novo<br>
-
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 O grupo TBD, para acesso inicial do aplicativo, e recebimento do cartão é necessario o cadastramento no banco de dados o nome, e-mail, numero de celular, e será necessario a criação de uma senha pessoal para utilizar os serviços do cartão. Para login no aplicativo é necessario a confirmação da senha ou a digital cadastrada no celular, já para login no desktop é necessario a confirmação por e-mail, se a senha pessoal for digitada errada por uma quantidade de vezes, o cartão será bloqueado até o cliente comunicar a empresa. O TBD aceita a possibibilade de colocar saldo no cartão pessoal, mediante pagamento via boleto bancario, cartões de credito, PayPal, Go4Gold, onde sempre é possivel adicionar saldos a conta, sem limites. Todas as empresas parceiras do sistema, podem incluir pessoas ao Banco de Dados para envio de promoções, serviços, e registrar ocorrencia de infrações de clientes. Se um cliente possui infração no estabelecimento, ele fica incapacitado de entrar novamente no local, é necessario esperar o tempo da infração acabar. A infração de um cliente, fica armazenada em um banco de dados e mesmo se um cliente possuir saldo no cartão, não sera possivel utilizar o mesmo. Se o estabelecimento vende bebidas alcoolicas, e o usuario for menor de idade, a compra não será aprovada pelo cartão. Se um cartão for furtado, será possivel o bloqueio do mesmo de forma automatica pelo aplicativo, ou via Desktop.  
 
