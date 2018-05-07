@@ -1,0 +1,50 @@
+create table Usuario(cpf int,
+                     saldo money,
+                     login varchar(15),
+                     genero boolean,
+                     senha varchar(15),
+                     celular int(11),
+                     nome varchar(20),
+                     orientacao_sexual varchar(20),
+                     nivel_de_acesso tinyint,
+                 	 endereco text)
+
+create table Limitacoes (ID_Limitacoes varchar(10),
+                         Saldo_Reserva money,
+                         Data_Reserva date)
+
+create table Promocoes (ID_Promocao varchar(10),
+                        Desconto money,
+                        Validade date,
+                        Tipo ...,
+                        Descricao text)
+
+create table Produtos (ID_Produto varchar(20),
+                       Descricao text,
+                       Preco money,
+                       Nome text,
+                       Tipo...)
+                     
+create table Estabelecimento (CNPJ varchar(20),
+                              Nome text,
+                              Endereco text,
+                              Tipo...,
+                              Telefone varchar(11),
+                              Email tinytext,
+                              Horario date)
+
+create table Restricoes (ID_Restricao varchar(20),
+                         Tempo_Duracao date,
+                         Data_Inicio date,
+                         Motivo text)
+                         
+create table Eventos (ID_Evento varchar(20),
+                      Descricao text,
+                      Data_Evento date,
+                      Preco money,
+                      Hora Time)
+
+create table Alertas (ID_Alerta varchar(20),
+                      Descricao text,
+                      Nome text,
+                      Regras text)
