@@ -13,24 +13,24 @@ Jack Johnson: jackjohnson.junior@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
-Problemas como andar com dinheiro no bolso para ir a um show, sair com pouco dinheiro para um bar são situações que podem atrapalhar a diversão de qualquer pessoa e acabar encurtando o tempo que aquela pessoa gastaria em um estabelecimento e/ou show assim como óbviamente diminuir a quantidade de serviços e produtos consumidos.
-Olhando para o lado da organização é possível que um local esteja perdendo oportunidades de fidelizar seus clientes e de aumentar o seu número de clientes, pois ela não consegue oferecer um serviço customizado e diferenciado para cada cliente o que é a atual tendência do mercado.
-Buscando solucionar estes problemas, apresentamos a ideia do cartão BlackCard, que traz a ideia de uma carteira digital que oferece tanto segurança e maior controle para o cliente como favorece a coleta de informações e a geração de relatórios para as organizações aumentando assim sua acertividade na tomada de decisões, como barrar acesso de clientes problemáticos ou ter a oportunidade de fidelizar clientes através de marketing individualizado.
+Problemas como andar com dinheiro no bolso para ir a um show, sair com pouco dinheiro para um bar são situações que podem atrapalhar a diversão de qualquer pessoa e acabar encurtando o tempo que aquela pessoa gastaria em um estabelecimento e/ou show assim como óbviamente diminuir a quantidade de serviços e produtos consumidos.<br>
+Olhando para o lado da organização é possível que um local esteja perdendo oportunidades de fidelizar seus clientes e de aumentar o seu número de clientes, pois ela não consegue oferecer um serviço customizado e diferenciado para cada cliente o que é a atual tendência do mercado.<br>
+Buscando solucionar estes problemas, apresentamos a ideia do cartão BlackCard, que traz a ideia de uma carteira digital que oferece tanto segurança e maior controle para o cliente como favorece a coleta de informações e a geração de relatórios para as organizações aumentando assim sua acertividade na tomada de decisões, como barrar acesso de clientes problemáticos ou ter a oportunidade de fidelizar clientes através de marketing individualizado.<br>
 O cartão BlackCard é uma solução que engloba um cartão com chip físico, um aplicativo de celular e um sistema web acessível pelo empresário. Cada um destes componentes possui funcionalidades diferentes e estão interligados entre sí através de uma base de dados única.<br>
  
 
 ### 3.MINI-MUNDO Novo<br>
 
-O sistema de cartão BlackCard funciona através da junção de 3 fatores:
-O cartão físico: um cartão físico com chip, número serial de indentificação, um QR code único e senha. Cada cartão está associado a apenas um cliente e pode ser lido por qualquer máquina de cartão ou ter o QRCode lido por pelo app do BlackCard por um funcionário utilizando o app com um usuário com nível de autorização concedido.
-App BlackCard Mobile: este aplicativo é a base principal do sistema e para ter acesso as suas funcionalidades o usuário deve cadastrar cpf, email, número de celular, email e senha obrigatóriamente, depois de obter acesso ao app o usuário conseguirá ativar sua funcionalidades para buscar shows e/ou estabelecimentos que atendam as suas preferências de música, quantidade de público, tipo de comida e/ou interesse romântico, verficar promoções especiais para ele, promoções gerais, restrições aplicadas a ele, inserir crédito, reservar créditos, ver histórico de gasto, ver saldo e outros.
-O mesmo app apresenta as funções adicionais de verificar QRCode de usuário e acessar relatórios organizacionais quando a conta do usuário acessando o app possuir o nível de acesso exigido para ter acesso a essas funções.
-Web app Black Card: o sistema web é de acesso exclusivo para funcionários e membros gestores das organizações e exige o cadastro de cpf, email, número de celular, email e senha obrigatóriamente assim como o app mobile, porém as funções oferecidas pelo web app são de cunho gerencial.
-As funções da versão web são:
-Relatórios: Diversos relatórios que demonstram frequência de clientes, tempo gasto por cliente no local, dinheiro gasto no local e outros tipos de relatórios.
-Controle de restrições: Ver histórico de clientes restritos e de incidentes, aplicar restrições, remover restrições e outras funçções relacionadas.
-Controle de promoções: gerenciar promoções globais, promoções para grupos de clientes que atendem determinados requisitos, promoções customizadas e individuais para certos clientes.
-Através da união desses 3 fatores e de suas funções o sistema BlackCard visa resolver os problemas apontados pelas motivações descritas anteriomente.
+O sistema de cartão BlackCard funciona através da junção de 3 fatores:<br>
+O cartão físico: um cartão físico com chip, número serial de indentificação, um QR code único e senha. Cada cartão está associado a apenas um cliente e pode ser lido por qualquer máquina de cartão ou ter o QRCode lido por pelo app do BlackCard por um funcionário utilizando o app com um usuário com nível de autorização concedido.<br>
+App BlackCard Mobile: este aplicativo é a base principal do sistema e para ter acesso as suas funcionalidades o usuário deve cadastrar cpf, email, número de celular, email e senha obrigatóriamente, depois de obter acesso ao app o usuário conseguirá ativar sua funcionalidades para buscar shows e/ou estabelecimentos que atendam as suas preferências de música, quantidade de público, tipo de comida e/ou interesse romântico, verficar promoções especiais para ele, promoções gerais, restrições aplicadas a ele, inserir crédito, reservar créditos, ver histórico de gasto, ver saldo e outros.<br>
+O mesmo app apresenta as funções adicionais de verificar QRCode de usuário e acessar relatórios organizacionais quando a conta do usuário acessando o app possuir o nível de acesso exigido para ter acesso a essas funções.<br>
+Web app Black Card: o sistema web é de acesso exclusivo para funcionários e membros gestores das organizações e exige o cadastro de cpf, email, número de celular, email e senha obrigatóriamente assim como o app mobile, porém as funções oferecidas pelo web app são de cunho gerencial.<br>
+As funções da versão web são:<br>
+Relatórios: Diversos relatórios que demonstram frequência de clientes, tempo gasto por cliente no local, dinheiro gasto no local e outros tipos de relatórios.<br>
+Controle de restrições: Ver histórico de clientes restritos e de incidentes, aplicar restrições, remover restrições e outras funçções relacionadas.<br>
+Controle de promoções: gerenciar promoções globais, promoções para grupos de clientes que atendem determinados requisitos, promoções customizadas e individuais para certos clientes.<br>
+Através da união desses 3 fatores e de suas funções o sistema BlackCard visa resolver os problemas apontados pelas motivações descritas anteriomente.<br>
  
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
