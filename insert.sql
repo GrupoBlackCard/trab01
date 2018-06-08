@@ -29,13 +29,37 @@ INSERT INTO Estabelecimento (cnpj,nome_estabelecimento,id_endereco_estabelecimen
 ('06.283.140/0001-09','Move Music House',12,'Casas de festas e eventos','(27) 3314-5968','sac@move.com.br',23:00:00);
 
 INSERT INTO Limitacoes (id_limitacoes,Saldo_Reserva,Data_Reserva,cpf_limitacoes) values
-(181,50,2018-06-27,'880.208.195-68'),
-(182,8.17,2018-08-14,'693.970.464-70'),
-(183,61.09,2018-06-27,'402.342.207-08'),
-(184,20.44,2018-12-31,'880.208.195-68'),
-(185,30,2018-06-12,'355.030.089-10');
+('181',50,2018-06-27,'880.208.195-68'),
+('182',8.17,2018-08-14,'693.970.464-70'),
+('183',61.09,2018-06-27,'402.342.207-08'),
+('184',20.44,2018-12-31,'880.208.195-68'),
+('185',30,2018-06-12,'355.030.089-10');
 
 INSERT INTO (id_promocao,desconto_promocao,validade_promocao,tipo_promocao,descricao_promocao,cnpj_promocao,cpf_promocao) values
-(1,10,2018-06-28,'Novo Usuario','10 reais de desconto para novos clientes','00.339.291/0001-47','880.208.195-68'),
-(2,20,2019-12-31,'Novo Usuario','20 reais de desconto para novos clientes','06.591.198/0001-01','355.030.089-10'),
-(3,15,2019-12-31,'Recuperando Usuario','15 reais de desconto na sua proxima compra','06.591.198/0001-01','191.491.029-07');
+('1',10,2018-06-28,'Novo Usuario','10 reais de desconto para novos clientes','00.339.291/0001-47','880.208.195-68'),
+('2',20,2019-12-31,'Novo Usuario','20 reais de desconto para novos clientes','06.591.198/0001-01','355.030.089-10'),
+('3',15,2019-12-31,'Recuperando Usuario','15 reais de desconto na sua proxima compra','06.591.198/0001-01','191.491.029-07');
+
+INSERT INTO Produtos (id_produto,Descricao_produto,Preco_produto,nome_produto,tipo_produto,cnpj_produto) values 
+('1','cachaça,açúcar,limão,gelo',5.50,'Batida de Caipirinha','Alcool','06.591.198/0001-01'),
+('2','gim,licor de cacau,creme de leite,sorvete de creme,Noz-moscada',7.99,'Meia de Seda','Alcool','06.591.198/0001-01'),
+('3','jabuticabas,manjericão,açúcar,vodca,gelo',12.00,'Caipilé de Jabuticaba e Manjericão','Alcool','06.283.140/0001-09'),
+('4','Refrigerante sabor cola',5.00,'Coca-Cola','Refrigerante','00.339.291/0001-47'),
+('5','Agua Mineral sem gás',2.00,'Agua Mineral','Agua','00.339.291/0001-47');
+
+insert into Restricoes (id_restricao,data_inicio,data_fim,motivo_restricao,cnpj_restricao,cpf_restricao) values
+('1',2018-06-08,2018-08-12,'Brigar dentro do estabelecimento','06.283.140/0001-09','397.496.435-50'),
+('1',2018-06-08,2020-08-12,'Entrar com arma branca no estabelecimento','32.444.564/0001-00','880.208.195-68');
+
+create table Eventos (id_evento,descricao_evento text,data_evento,preco_evento,hora_evento,cnpj_restricao) values
+('1','DENNIS INTENSE',2018-06-01,40,22:00:00,'00.339.291/0001-47'),
+('2','HARMONIA DAS ANTIGAS COM XANDY',2018-06-02,25,22:00:00,'00.339.291/0001-47'),
+('3','WARM UP HELL & HEAVEN',2018-09-08,30,23:59:00,'06.283.140/0001-09'),
+('4','CARNA SUMMER',2019-01-31,20,23:00:00,'06.283.140/0001-09');
+
+insert into Alertas (id_alerta,descricao_alerta,nome_alerta,regras_alerta,cpf_alerta) values 
+('1','Você foi suspenso por 2 meses da Move Music House','Suspensão','Briga','397.496.435-50'),
+('2','Você foi suspenso por 2 anos da Blow Up','Suspensão','Porte de Arma','880.208.195-68'),
+('3','Você ganhou um cupom de 10 reais no estabelecimento Multiplace Mais','Desconto','Novo Cliente','880.208.195-68'),
+('4','Você ganhou um cupom de 20 reais no estabelecimento Com Vento Bar e Choperia','Desconto','Novo Cliente','355.030.089-10'),
+('5','Você ganhou um cupom de 15 reais no estabelecimento Com Vento Bar e Choperia','Desconto','Novo Cliente','191.491.029-07');
