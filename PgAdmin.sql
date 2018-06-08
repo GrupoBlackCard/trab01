@@ -43,7 +43,7 @@ create table Estabelecimento (cnpj varchar(25) primary key,
                               tipo_estabelecimento text,
                               telefone_estabelecimento varchar(15),
                               email_estabelecimento text,
-                              horario_estabelecimento date);
+                              horario_estabelecimento time );
 
 create table Restricoes (id_restricao varchar(20) primary key,
                          tempo_duracao date,
