@@ -1,5 +1,5 @@
 create table Endereco(id_endereco serial PRIMARY KEY,
-              estado text,
+                      estado text,
                       rua text,
                       cep varchar(15),
                       bairro text,
