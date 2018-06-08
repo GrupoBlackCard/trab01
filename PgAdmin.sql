@@ -21,7 +21,7 @@ create table Usuario(cpf_usuario varchar(15) primary key,
 create table Limitacoes (id_limitacoes varchar(10) primary key,
                          Saldo_Reserva money,
                          Data_Reserva date
-						 cpf_limitacoes integer references Usuario(cpf_usuario));
+			 cpf_limitacoes integer references Usuario(cpf_usuario));
 
 create table Promocoes (id_promocao varchar(10) primary key,
                         desconto_promocao money,
@@ -39,7 +39,7 @@ create table Produtos (id_produto varchar(20) primary key,
                      
 create table Estabelecimento (cnpj varchar(25) primary key,
                               nome_estabelecimento text,
-                              endereco_estabelecimento text,
+                              id_endereco_estabelecimento integer references Endereco(id_endereco),
                               tipo_estabelecimento text,
                               telefone_estabelecimento varchar(15),
                               email_estabelecimento text,
