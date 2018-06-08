@@ -13,21 +13,30 @@ Jack Johnson: jackjohnson.junior@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
-Problemas como andar com dinheiro no bolso para ir a um show, sair com pouco dinheiro para um bar são situações que as vezes podem atrapalhar a diversão de um usuário, além disso, empresas muitas vezes não tem um controle mais preciso e individualizado para cada um dos seus clientes, o que o impede de fazer promoções de marketing diretas para cada cliente ou mesmo para ter uma ideia mais precisa do público que frequenta o seu estabelecimento.
-Buscando solucionar estes problemas, apresentamos a ideia do cartão TBD, que traz a ideia de uma carteira digital que oferece tanto segurança e maior controle para o cliente como favorece o controle dos estabelicimentos, como barrar acesso de clientes problemáticos ou ter a oportunidade de fidelizar clientes através de marketing individualizado.
-O TBD é uma solução que engloba um cartão com chip físico, um aplicativo de celular e um sistema web acessível pelo empresário. Cada um destes componentes possui funcionalidades diferentes e estão interligados entre sí através de uma base de dados única.<br>
+Problemas como andar com dinheiro no bolso para ir a um show, sair com pouco dinheiro para um bar são situações que podem atrapalhar a diversão de qualquer pessoa e acabar encurtando o tempo que aquela pessoa gastaria em um estabelecimento e/ou show assim como óbviamente diminuir a quantidade de serviços e produtos consumidos.
+Olhando para o lado da organização é possível que um local esteja perdendo oportunidades de fidelizar seus clientes e de aumentar o seu número de clientes, pois ela não consegue oferecer um serviço customizado e diferenciado para cada cliente o que é a atual tendência do mercado.
+Buscando solucionar estes problemas, apresentamos a ideia do cartão BlackCard, que traz a ideia de uma carteira digital que oferece tanto segurança e maior controle para o cliente como favorece a coleta de informações e a geração de relatórios para as organizações aumentando assim sua acertividade na tomada de decisões, como barrar acesso de clientes problemáticos ou ter a oportunidade de fidelizar clientes através de marketing individualizado.
+O cartão BlackCard é uma solução que engloba um cartão com chip físico, um aplicativo de celular e um sistema web acessível pelo empresário. Cada um destes componentes possui funcionalidades diferentes e estão interligados entre sí através de uma base de dados única.<br>
  
 
 ### 3.MINI-MUNDO Novo<br>
 
-O grupo TBD, para acesso inicial do aplicativo, e recebimento do cartão é necessario o cadastramento no banco de dados o nome, e-mail, numero de celular, e será necessario a criação de uma senha pessoal para utilizar os serviços do cartão. Para login no aplicativo é necessario a confirmação da senha ou a digital cadastrada no celular, já para login no desktop é necessario a confirmação por e-mail, se a senha pessoal for digitada errada por uma quantidade de vezes, o cartão será bloqueado até o cliente comunicar a empresa. O TBD aceita a possibibilade de colocar saldo no cartão pessoal, mediante pagamento via boleto bancario, cartões de credito, PayPal, Go4Gold, onde sempre é possivel adicionar saldos a conta, sem limites. Todas as empresas parceiras do sistema, podem incluir pessoas ao Banco de Dados para envio de promoções, serviços, e registrar ocorrencia de infrações de clientes. Se um cliente possui infração no estabelecimento, ele fica incapacitado de entrar novamente no local, é necessario esperar o tempo da infração acabar. A infração de um cliente, fica armazenada em um banco de dados e mesmo se um cliente possuir saldo no cartão, não sera possivel utilizar o mesmo. Se o estabelecimento vende bebidas alcoolicas, e o usuario for menor de idade, a compra não será aprovada pelo cartão. Se um cartão for furtado, será possivel o bloqueio do mesmo de forma automatica pelo aplicativo, ou via Desktop.  
+O sistema de cartão BlackCard funciona através da junção de 3 fatores:
+O cartão físico: um cartão físico com chip, número serial de indentificação, um QR code único e senha. Cada cartão está associado a apenas um cliente e pode ser lido por qualquer máquina de cartão ou ter o QRCode lido por pelo app do BlackCard por um funcionário utilizando o app com um usuário com nível de autorização concedido.
+App BlackCard Mobile: este aplicativo é a base principal do sistema e para ter acesso as suas funcionalidades o usuário deve cadastrar cpf, email, número de celular, email e senha obrigatóriamente, depois de obter acesso ao app o usuário conseguirá ativar sua funcionalidades para buscar shows e/ou estabelecimentos que atendam as suas preferências de música, quantidade de público, tipo de comida e/ou interesse romântico, verficar promoções especiais para ele, promoções gerais, restrições aplicadas a ele, inserir crédito, reservar créditos, ver histórico de gasto, ver saldo e outros.
+O mesmo app apresenta as funções adicionais de verificar QRCode de usuário e acessar relatórios organizacionais quando a conta do usuário acessando o app possuir o nível de acesso exigido para ter acesso a essas funções.
+Web app Black Card: o sistema web é de acesso exclusivo para funcionários e membros gestores das organizações e exige o cadastro de cpf, email, número de celular, email e senha obrigatóriamente assim como o app mobile, porém as funções oferecidas pelo web app são de cunho gerencial.
+As funções da versão web são:
+Relatórios: Diversos relatórios que demonstram frequência de clientes, tempo gasto por cliente no local, dinheiro gasto no local e outros tipos de relatórios.
+Controle de restrições: Ver histórico de clientes restritos e de incidentes, aplicar restrições, remover restrições e outras funçções relacionadas.
+Controle de promoções: gerenciar promoções globais, promoções para grupos de clientes que atendem determinados requisitos, promoções customizadas e individuais para certos clientes.
+Através da união desses 3 fatores e de suas funções o sistema BlackCard visa resolver os problemas apontados pelas motivações descritas anteriomente.
+ 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+O Mockup abaixo representa apenas o app mobile do BlackCard e se encontra em estágio inicial de desenvolvimento<br>
 
-Versão Alfa 0.1 = https://balsamiq.cloud/sngm3cp/pp7f8vw/rE0E6
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
+Versão Alfa 0.2 = https://balsamiq.cloud/sngm3cp/pp7f8vw/rE0E6
 
 ![Alt text](https://github.com/GrupoBlackCard/trab01/blob/master/BDI_Mockup.png?raw=true "Title")
 
