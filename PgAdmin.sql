@@ -1,3 +1,11 @@
+create table Endereco(id_endereco serial PRIMARY KEY,
+		      estado text,
+                      rua text,
+                      cep varchar(15),
+                      bairro text,
+                      municipio text,
+                      numero smallint);
+                      
 create table Usuario(cpf_usuario varchar(15) primary key,
                      saldo_usuario money,
                      login_usuario varchar(15),
@@ -7,12 +15,12 @@ create table Usuario(cpf_usuario varchar(15) primary key,
                      nome_usuario text,
                      orientacao_sexual varchar(20),
                      nivel_de_acesso smallint,
-                 	 id_endereco_usuario varchar(10));
+                 	 id_endereco_usuario integer references Endereco(id_endereco));
 
 
 create table Limitacoes (id_limitacoes varchar(10) primary key,
                          Saldo_Reserva money,
-                         Data_Reserva date));
+                         Data_Reserva date);
 
 create table Promocoes (id_promocao varchar(10) primary key,
                         desconto_promocao money,
@@ -49,11 +57,3 @@ create table Alertas (id_alerta varchar(20) primary key,
                       descricao_alerta text,
                       nome_alerta text,
                       regras_alerta text);
-
-create table Endereco(id_endereco serial PRIMARY KEY,
-					  estado text,
-                      rua text,
-                      cep varchar(15),
-                      bairro text,
-                      municipio text,
-                      numero smallint);
