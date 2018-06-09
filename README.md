@@ -49,9 +49,18 @@ Versão Alfa 0.2 = https://balsamiq.cloud/sngm3cp/pp7f8vw/rE0E6
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
+    O sistema BlackCard se propõe fornecer informações diversas sobre os clientes e seus comportamentos de consumo, utililização de serviços e preferências pessoais sobre alguns quesitos como música e comida, outro ponto que o sistema se propõe é o de ajudar o cliente a controlar e facilitar o uso de seu dinheiro quando ele sair para se divertir e utilizar-se do nosso sistema.<br>
+    A seguir apresentamos uma lista com alguns dos mais importantes relatórios do sistema e que vão ajudar em demonstrar o potencial do sistema.<br>
+    Relatório 01 - Frequência média do cliente por local: um relatório individual por organização que demonstra com que frequência cada cliente frequenta o seu local, quais os dias especifícos ele mais frequenta e destaca quais clientes te diminuido sua frequência padrão nos ultimos 30 dias.<br>
+    Relatório 02 - Tempo Gasto médio pelos clientes no local: um relatório individual por organização que demonstra qual o tempo médio gasto pelo cliente no seu estabelecimento, quais fatores aumentam ou diminuem o tempo médio gasto por cliente(exemplo: periodos com música x tem um tempo médio de permanência no local 20% acima da média).<br>
+    Relatório 03 -  Impacto de promoções: um relatório individual por organização que demonstra qual o impacto obtido por cada tipo de promoção divulgada pela organização(exemplo: promoções de entrada aumentam em 15% a quantidade de público e promoções de bebidas aumentam a permanência no local  em 30%)<br>
+    Relatório 04 - Mais procuradas: Relatório global que demonstra quais tipos de serviços ou produtos tem atraido mais clientes nos últimos 90 dias.<br>
+    Relatório 05 - Oportunidades: Relatório que demonstra quais tipos de serviços e/ou produtos tem tido demanda por parte dos clientes porém não tem recebido atenção dos estabelecimentos(exemplo: um estilo musical com grande procura no app, mas que tenha pouca oferta).<br>
+    Relatório 06 - Indice de fidelização: Um relatório individual por organização que demonstra qual a capacidade percentual da organização de fidelizar clientes que visitam pela primeira vez, indicando baseado no coportamento recente do cliente quais os possíveis pontos que tem evitado ou ajudado a fidelização de clientes(exemplo: o relatório indica que 70% do clientes que não se fidelizam te o hábito de comprar 5 bebidas por noite, poré apenas consumiram 2 quando visitaram o estabelecimento).<br>
+    Relatório 07 - Histórico de incidentes: um relatório individual por organização que demonstra a lista de todos os tipos de restrições imposta nos ultimos 90 dias, assim como quais tipo de eventos ou outras características tem proporcionado mais casos de incidentes(exemplo: Shows para um determinado público tem gerado mais incidentes).<br>
+    Relatório 08 - Histórico de Uso do Cliente: esse relatório é para o usuário comum e indica os locais que ele frequentou nos útlimos 30 dias e quais foram os seus respectivos gastos nestes locais.<br>
+    Relatório 09 - Histórico de consumo de produtos: um relatório individual por organização que demonstra quais tipos de produtos possuem mais vendas em determinadas situações e quais produtos costumam ser comprados em pares ou como "kits", podendo indicar promoções ou propgandas de destaques para esses produtos.<br>
+    Relatório 10 - Histórico de incidentes: um relatório individual por cliente que demonstra a lista de todos os tipos de restrições impostos a ele nos ultimos 90 dias.<br>
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
