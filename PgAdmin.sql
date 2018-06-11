@@ -19,11 +19,11 @@ create table Usuario(cpf_usuario varchar(15) primary key,
 
 create table Estabelecimento (cnpj varchar(25) primary key,
                               nome_estabelecimento text,
-                              endereco_estabelecimento text,
                               tipo_estabelecimento text,
                               telefone_estabelecimento varchar(15),
                               email_estabelecimento text,
-                              horario_estabelecimento time);
+                              horario_estabelecimento time,
+							  id_endereco_estabelecimento integer references Endereco(id_endereco));
 
 create table Limitacoes (id_limitacoes varchar(10) primary key,
                          Saldo_Reserva money,
