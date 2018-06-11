@@ -63,7 +63,7 @@ insert into Restricoes (data_inicio,data_fim,motivo_restricao,cnpj_restricao,cpf
 ('2018-06-08','2018-08-12','Brigar dentro do estabelecimento','06.283.140/0001-09','397.496.435-50'),
 ('2018-06-08','2020-08-12','Entrar com arma branca no estabelecimento','32.444.564/0001-00','880.208.195-68');
 
-insert into Eventos (descricao_evento,data_evento,preco_evento,hora_evento,cnpj_evento) values
+insert into Eventos (,descricao_evento,data_evento,preco_evento,hora_evento,cnpj_restricao) values
 ('DENNIS INTENSE','2018-06-01',40,'22:00:00','00.339.291/0001-47'),
 ('HARMONIA DAS ANTIGAS COM XANDY','2018-06-02',25,'22:00:00','00.339.291/0001-47'),
 ('WARM UP HELL & HEAVEN','2018-09-08',30,'23:59:00','06.283.140/0001-09'),
@@ -75,3 +75,16 @@ insert into Alertas (descricao_alerta,nome_alerta,regras_alerta,cpf_alerta) valu
 ('Você ganhou um cupom de 10 reais no estabelecimento Multiplace Mais','Desconto','Novo Cliente','880.208.195-68'),
 ('Você ganhou um cupom de 20 reais no estabelecimento Com Vento Bar e Choperia','Desconto','Novo Cliente','355.030.089-10'),
 ('Você ganhou um cupom de 15 reais no estabelecimento Com Vento Bar e Choperia','Desconto','Novo Cliente','191.491.029-07');
+
+
+insert into Eventos (,descricao_evento,data_evento,preco_evento,hora_evento,cnpj_eventos) values 
+('De Booa na Copa','2018-06-17',30,'13:00:00','07.780.834/0001-06'),
+('12º Arraiá da FDV','2018-06-30',30,'22:00:00','07.780.834/0001-06'),
+('Arraiá UP Ensino Fundamental','2018-07-07',15,'13:30:00','07.780.834/0001-06'),
+('Arraiá UP Ensino Médio e Pré Vestibular','2018-07-07',20,'19:30:00','07.780.834/0001-06'),
+('Pacha Ibiza On Tour Vitória','2018-07-14',40,'22:00:00','07.780.834/0001-06'),
+('Baile do Jean Du PCB in Férias','2018-07-20',40,'22:00:00','07.780.834/0001-06'),
+('O Baile do Nêgo Véio em Vitória/ES','2018-08-04',60,'18:00:00','07.780.834/0001-06'),
+('Baile da Ilha','2018-08-17',60,'22:00:00','07.780.834/0001-06'),
+('Vitória Music Festival - VMF 2018','2018-09-06',75,'22:00:00','07.780.834/0001-06'),
+('Gravação do Dvd do Axé 90 Graus e Convidados','2018-09-16',80,'22:00:00','07.780.834/0001-06');
