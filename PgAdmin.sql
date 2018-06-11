@@ -6,7 +6,7 @@ create table Endereco(id_endereco serial PRIMARY KEY,
                       municipio text,
                       numero smallint);
                       
-create table Usuario(cpf_usuario varchar(15) primary key,
+create table Usuario(cpf_usuario varchar(15) not null primary key,
                      saldo_usuario money,
                      login_usuario varchar(45),
                      genero_usuario char(1),
@@ -17,7 +17,7 @@ create table Usuario(cpf_usuario varchar(15) primary key,
                      nivel_de_acesso smallint,
                      id_endereco_usuario integer references Endereco(id_endereco));
 
-create table Estabelecimento (cnpj varchar(25) primary key,
+create table Estabelecimento (cnpj varchar(25) not null primary key,
                               nome_estabelecimento text,
                               tipo_estabelecimento text,
                               telefone_estabelecimento varchar(15),
@@ -30,7 +30,7 @@ create table Limitacoes (id_limitacoes varchar(10) primary key,
                          Data_Reserva date,
 			 cpf_limitacoes varchar(15) references Usuario(cpf_usuario));
 
-create table Promocoes (id_promocao varchar(10) primary key,
+create table Promocoes (id_promocao serial primary key,
                         desconto_promocao money,
                         validade_promocao date,
                         tipo_promocao text,
@@ -38,7 +38,7 @@ create table Promocoes (id_promocao varchar(10) primary key,
                         cnpj_promocao varchar(25) references Estabelecimento(cnpj),
                         cpf_promocao varchar(15) references Usuario(cpf_usuario));
 
-create table Produtos (id_produto varchar(20) primary key,
+create table Produtos (id_produto varchar(20) not null primary key,
                        Descricao_produto text,
                        Preco_produto money,
                        nome_produto text,
