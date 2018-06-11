@@ -58,7 +58,7 @@ create table Eventos (id_evento serial primary key,
                       data_evento date,
                       preco_evento money,
                       hora_evento time,
-                      cnpj_restricao varchar(25) references Estabelecimento(cnpj));
+                      cnpj_evento varchar(25) references Estabelecimento(cnpj));
 
 create table Alertas (id_alerta serial primary key,
                       descricao_alerta text,
