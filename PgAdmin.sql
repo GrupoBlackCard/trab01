@@ -46,21 +46,21 @@ create table Produtos (id_produto varchar(20) primary key,
                        cnpj_produto varchar(25) references Estabelecimento(cnpj));
                      
 
-create table Restricoes (id_restricao varchar(20) primary key,
+create table Restricoes (id_restricao serial primary key,
                          data_inicio date,
                          data_fim date,
                          motivo_restricao text,
                          cnpj_restricao varchar(25) references Estabelecimento(cnpj),
                          cpf_restricao varchar(15) references Usuario(cpf_usuario));
 
-create table Eventos (id_evento varchar(20) primary key,
+create table Eventos (id_evento serial primary key,
                       descricao_evento text,
                       data_evento date,
                       preco_evento money,
                       hora_evento time,
                       cnpj_restricao varchar(25) references Estabelecimento(cnpj));
 
-create table Alertas (id_alerta varchar(20) primary key,
+create table Alertas (id_alerta serial primary key,
                       descricao_alerta text,
                       nome_alerta text,
                       regras_alerta text,
