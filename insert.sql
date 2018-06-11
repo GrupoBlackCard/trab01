@@ -64,3 +64,6 @@ insert into Alertas (id_alerta,descricao_alerta,nome_alerta,regras_alerta,cpf_al
 ('3','Você ganhou um cupom de 10 reais no estabelecimento Multiplace Mais','Desconto','Novo Cliente','880.208.195-68'),
 ('4','Você ganhou um cupom de 20 reais no estabelecimento Com Vento Bar e Choperia','Desconto','Novo Cliente','355.030.089-10'),
 ('5','Você ganhou um cupom de 15 reais no estabelecimento Com Vento Bar e Choperia','Desconto','Novo Cliente','191.491.029-07');
+
+INSERT INTO Endereco(estado, rua, cep, bairro, municipio, numero) VALUES 
+('ES','Alameda Ponta Formosa','29055-810','Praia do Canto','Vitória',350);
