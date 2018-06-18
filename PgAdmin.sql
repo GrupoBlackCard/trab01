@@ -65,3 +65,13 @@ create table Alertas (id_alerta serial primary key,
                       nome_alerta text,
                       regras_alerta text,
                       cpf_alerta varchar(15) references Usuario(cpf_usuario));
+		      
+create table Transacao (id_transacao serial primary key,
+			nome_transacao varchar(45),
+			numero_cartao int,
+			data_validade date,
+			codigo_seguraca int,
+			data_trasacao timestamp default current_timestamp,
+			valor_trasacao money,
+			cnpj_restricao varchar(25) references Estabelecimento(cnpj),
+                        cpf_restricao varchar(15) references Usuario(cpf_usuario));
