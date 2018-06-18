@@ -1,4 +1,4 @@
-create table Endereco(id_endereco serial PRIMARY KEY,
+create table Endereco(id_endereco integer not null PRIMARY KEY,
                       estado text,
                       rua text,
                       cep varchar(15),
@@ -25,7 +25,7 @@ create table Estabelecimento (cnpj varchar(25) not null primary key,
                               horario_estabelecimento time,
 							  id_endereco_estabelecimento integer references Endereco(id_endereco));
 
-create table Limitacoes (id_limitacoes varchar(10) primary key,
+create table Limitacoes (id_limitacoes serial primary key,
                          Saldo_Reserva money,
                          Data_Reserva date,
 			 cpf_limitacoes varchar(15) references Usuario(cpf_usuario));
