@@ -88,3 +88,10 @@ insert into Eventos (,descricao_evento,data_evento,preco_evento,hora_evento,cnpj
 ('Baile da Ilha','2018-08-17',60,'22:00:00','07.780.834/0001-06'),
 ('Vitória Music Festival - VMF 2018','2018-09-06',75,'22:00:00','07.780.834/0001-06'),
 ('Gravação do Dvd do Axé 90 Graus e Convidados','2018-09-16',80,'22:00:00','07.780.834/0001-06');
+
+INSERT INTO transacao(nome_transacao, numero_cartao, data_validade, codigo_seguraca, valor_transacao,cnpj_transacao,cpf_transacao)VALUES 
+('Emanuelly Gabriela Souza','4345271209119943','2019-03-01',578,250.00,'32.444.564/0001-00','396.931.337-65'),
+('Danilo Cláudio Ian da Pazs','5584793856960961','2024-01-14',416,84.35,'32.444.564/0001-00','621.969.616-63'),
+('Danilo Cláudio Ian da Pazs','5584793856960961','2024-01-14',416,52.15,'32.444.564/0001-00','621.969.616-63'),
+('Caroline Alícia Eliane Cavalcanti','376150940887226','2019-08-29',9966,98.33,'32.444.564/0001-00','114.023.514-10'),
+('Luis Heitor Gomes','6562743026485856','2019-06-15',5352,146.17,'06.591.198/0001-01','693.970.464-70');
