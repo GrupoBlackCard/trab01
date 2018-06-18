@@ -68,10 +68,10 @@ create table Alertas (id_alerta serial primary key,
 		      
 create table Transacao (id_transacao serial primary key,
 			nome_transacao varchar(45),
-			numero_cartao int,
+			numero_cartao varchar(16),
 			data_validade date,
-			codigo_seguraca int,
-			data_trasacao timestamp default current_timestamp,
-			valor_trasacao money,
-			cnpj_restricao varchar(25) references Estabelecimento(cnpj),
-                        cpf_restricao varchar(15) references Usuario(cpf_usuario));
+			codigo_seguraca smallint,
+			data_transacao timestamp default current_timestamp,
+			valor_transacao money,
+			cnpj_transacao varchar(25) references Estabelecimento(cnpj),
+                        cpf_transacao varchar(15) references Usuario(cpf_usuario));
