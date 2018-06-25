@@ -30,7 +30,7 @@ create table Promocoes (id_promocao serial primary key,
                         cnpj_promocao varchar(25) references Estabelecimento(cnpj),
                         cpf_promocao varchar(15) references Usuario(cpf_usuario));
 
-create table Produtos (id_produto varchar(20) not null primary key,
+create table Produtos (id_produto varchar(20) serial primary key,
                        Descricao_produto text,
                        Preco_produto money,
                        nome_produto text,
