@@ -21,11 +21,11 @@ INSERT INTO Estabelecimento (cnpj,nome_estabelecimento,id_endereco_estabelecimen
 ('39.802.699/0001-49','Matrix Music Hall','ES,Rua Waldemar Siepierski,29150-825,Rio Branco,Cariacica,2','Discotecas, danceterias, salões de dança e similares','(27) 3336-4776','contato@matrixshows.com.br','22:00:00');
 
 INSERT INTO Limitacoes (id_limitacoes,Saldo_Reserva,Data_Reserva,cpf_limitacoes) values
-('181',50,'2018-06-27','880.208.195-68'),
-('182',8.17,'2018-08-14','693.970.464-70'),
-('183',61.09,'2018-06-27','402.342.207-08'),
-('184',20.44,'2018-12-31','880.208.195-68'),
-('185',30,'2018-06-12','355.030.089-10');
+(50,'2018-06-27','880.208.195-68'),
+(8.17,'2018-08-14','693.970.464-70'),
+(61.09,'2018-06-27','402.342.207-08'),
+(20.44,'2018-12-31','880.208.195-68'),
+(30,'2018-06-12','355.030.089-10');
 
 INSERT INTO Promocoes(desconto_promocao,validade_promocao,tipo_promocao,descricao_promocao,cnpj_promocao,cpf_promocao) values
 (10,'2018-06-28','Novo Usuario','10 reais de desconto para novos clientes','00.339.291/0001-47','880.208.195-68'),
@@ -33,17 +33,17 @@ INSERT INTO Promocoes(desconto_promocao,validade_promocao,tipo_promocao,descrica
 (15,'2019-12-31','Recuperando Usuario','15 reais de desconto na sua proxima compra','06.591.198/0001-01','191.491.029-07');
 
 INSERT INTO Produtos (id_produto,Descricao_produto,Preco_produto,nome_produto,tipo_produto,cnpj_produto) values 
-('1','cachaça,açúcar,limão,gelo',5.50,'Batida de Caipirinha','Alcool','06.591.198/0001-01'),
-('2','gim,licor de cacau,creme de leite,sorvete de creme,Noz-moscada',7.99,'Meia de Seda','Alcool','06.591.198/0001-01'),
-('3','jabuticabas,manjericão,açúcar,vodca,gelo',12.00,'Caipilé de Jabuticaba e Manjericão','Alcool','06.283.140/0001-09'),
-('4','Refrigerante sabor cola',5.00,'Coca-Cola','Refrigerante','00.339.291/0001-47'),
-('5','Agua Mineral sem gás',2.00,'Agua Mineral','Agua','00.339.291/0001-47');
+('cachaça,açúcar,limão,gelo',5.50,'Batida de Caipirinha','Alcool','06.591.198/0001-01'),
+('gim,licor de cacau,creme de leite,sorvete de creme,Noz-moscada',7.99,'Meia de Seda','Alcool','06.591.198/0001-01'),
+('jabuticabas,manjericão,açúcar,vodca,gelo',12.00,'Caipilé de Jabuticaba e Manjericão','Alcool','06.283.140/0001-09'),
+('Refrigerante sabor cola',5.00,'Coca-Cola','Refrigerante','00.339.291/0001-47'),
+('Agua Mineral sem gás',2.00,'Agua Mineral','Agua','00.339.291/0001-47');
 
 insert into Restricoes (data_inicio,data_fim,motivo_restricao,cnpj_restricao,cpf_restricao) values
 ('2018-06-08','2018-08-12','Brigar dentro do estabelecimento','06.283.140/0001-09','397.496.435-50'),
 ('2018-06-08','2020-08-12','Entrar com arma branca no estabelecimento','32.444.564/0001-00','880.208.195-68');
 
-insert into Eventos (,descricao_evento,data_evento,preco_evento,hora_evento,cnpj_restricao) values
+insert into Eventos (descricao_evento,data_evento,preco_evento,hora_evento,cnpj_restricao) values
 ('DENNIS INTENSE','2018-06-01',40,'22:00:00','00.339.291/0001-47'),
 ('HARMONIA DAS ANTIGAS COM XANDY','2018-06-02',25,'22:00:00','00.339.291/0001-47'),
 ('WARM UP HELL & HEAVEN','2018-09-08',30,'23:59:00','06.283.140/0001-09'),
