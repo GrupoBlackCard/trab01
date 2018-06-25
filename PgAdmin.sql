@@ -1,11 +1,3 @@
-create table Endereco(id_endereco integer not null PRIMARY KEY,
-                      estado text,
-                      rua text,
-                      cep varchar(15),
-                      bairro text,
-                      municipio text,
-                      numero smallint);
-                      
 create table Usuario(cpf_usuario varchar(15) not null primary key,
                      saldo_usuario money,
                      login_usuario varchar(45),
@@ -15,7 +7,7 @@ create table Usuario(cpf_usuario varchar(15) not null primary key,
                      nome_usuario text,
                      orientacao_sexual varchar(20),
                      nivel_de_acesso smallint,
-                     id_endereco_usuario integer references Endereco(id_endereco));
+                     endereco_usuario text);
 
 create table Estabelecimento (cnpj varchar(25) not null primary key,
                               nome_estabelecimento text,
@@ -23,7 +15,7 @@ create table Estabelecimento (cnpj varchar(25) not null primary key,
                               telefone_estabelecimento varchar(15),
                               email_estabelecimento text,
                               horario_estabelecimento time,
-							  id_endereco_estabelecimento integer references Endereco(id_endereco));
+			      endereco_estabelecimento text);
 
 create table Limitacoes (id_limitacoes serial primary key,
                          Saldo_Reserva money,
